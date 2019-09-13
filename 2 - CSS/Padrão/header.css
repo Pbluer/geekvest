@@ -1,0 +1,138 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 0%;
+    background: #F1F1F1;
+    text-decoration: blue;
+    text-align: center;  
+  }
+  
+  header{
+    height: 150px;
+  }
+  
+  header ul{
+    margin: 8px auto;
+    display: inline-flex;
+    list-style-type: none;
+  }
+  
+  .menuTopheader label img{  
+    position: relative;
+    bottom: 90px;
+    left: 35%;
+    height: 75px;
+    width: 65px;
+  }
+  
+  #check-menu{
+    display: none;
+  }
+  
+  .menuTopheader label{
+    position: relative;
+    left: 30%;
+  }
+  
+  #check-menu:checked ~ .divMenu{
+    display: block;
+  }
+  
+  .divMenu ul {
+    text-align: left;
+  }
+  
+  .divMenu ul li a{
+    font-size: 18px;
+    color: black;
+    margin: 0 10px; 
+  }
+  
+  .divMenu ul li{
+    text-shadow: #40404059;
+    margin: 10px auto;
+    
+  }
+  
+  .divMenu{
+    display:none;
+    position: relative;
+    margin: auto;
+    bottom: 95px;  
+    text-decoration: none;
+    box-shadow: 0 5px 6px #40404059;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .divMenu:hover{
+    display: none;
+  }
+  
+  .logoHeader{  
+    position: relative;  
+    width: 75px;
+    left: 5%;
+    background-color: #D90429;
+    border-radius: 0 0 20px 20px; 
+  }
+  
+  #logo{
+   height: 70px;;
+  }
+  
+  .divLogo{
+    height: 90px;  
+  }
+  
+  @media screen and (min-width:375px){
+    .divMenu ul{
+      padding: 0 25px;
+    }
+  }
+  
+  @media screen and (min-width:768px){
+    
+    
+    .logoHeader{
+      width: 115px;
+    }
+    #logo{
+      height: 120px;
+    }
+  
+    header{
+      height: 90px;
+    }
+  
+    .menuTopheader label{
+      left: 40%;
+    }
+  
+    .divMenu{
+      border-radius: unset;
+      box-shadow: unset;
+      bottom: 160px;
+      left: 4%;
+      width: 550px;
+    }
+  
+    .divMenu ul li {  
+      margin: 10px 15px;
+      
+      border-radius: 10px;
+      height: 30px;
+  
+    }
+  
+    .divMenu ul li a {
+      position: relative;
+      top:2px;
+      color: black;
+      font-size: x-large;   
+    }   
+  
+  }
+  
+  @media screen and (min-width:1024px){
+    
+  }
