@@ -247,12 +247,12 @@ body img{
     .nav-pag{
         position: absolute;
         margin-bottom: 2%;
-        top: 93%;
+        top: 95%;
         left: 40%; 
     }
 }
 
-@media screen and (max-width:1440px){
+@media screen and (min-width:1440px){
     #divProdutos01{
         left: 13%;
     }

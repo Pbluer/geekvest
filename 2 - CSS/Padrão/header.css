@@ -90,7 +90,7 @@ body {
     }
   }
   
-  @media screen and (min-width:700px){   
+  @media screen and (min-width:700px){
    
     header{
       height: 90px;
@@ -123,8 +123,4 @@ body {
       font-size: x-large;   
     }   
   
-  }
-  
-  @media screen and (min-width:1024px){
-    
   }
