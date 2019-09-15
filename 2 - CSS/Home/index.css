@@ -6,7 +6,7 @@ body img{
 .divProdutos{
     position: relative;
     left: 23%;
-    margin: 0 0 60px;    
+    margin: 0 0 80px;    
     height: 220px;
     width: 200px;    
     background: #ffffff;
@@ -77,52 +77,6 @@ body img{
     }
 }
 
-/* Tablet */
-@media screen and (min-width:560px){
-
-    .divProdutos{
-        position: absolute;
-        margin: 0 0 10%;
-    }
-
-    #divProdutos01{
-        left: 10%;
-        top: 25%;
-    }
-
-    #divProdutos02{
-        left: 55%;
-        top: 25%;       
-    }
-
-    #divProdutos03{
-        left: 10%;
-        top: 65%;
-        
-    }
-
-    #divProdutos04{
-        top: 65%;
-        left: 55%;
-    }
-
-    #divProdutos05{
-        left:10%;
-        top: 105%
-    }
-
-    #divProdutos06{
-        left: 55%;
-        top: 105%;
-    }
-    .nav-pag{
-        position: absolute;
-        top: 145%;
-       
-    }
-}
-
-/*
 @media screen and (min-width:700px){
     .divProdutos{
         position: absolute;
@@ -145,7 +99,7 @@ body img{
         
     }
 
-    #divProdutos04{       
+    #divProdutos04{
         left: 55%;
         top: 55%;
     }
@@ -162,38 +116,143 @@ body img{
     }
     .nav-pag{
         position: absolute;
-        top: 135%;
-       
-    }
-}*/
-/* PC */
-
-@media screen and (min-width:700px){
-
-    #divProdutos01{
-        left: 10%;
-    }
-
-    #divProdutos02{
-        left: 40%;        
-    }
-
-    #divProdutos03{
-        left: 70%;
-        top: 25%;
-    }
-
-    #divProdutos04{
-        left: 10%;        
-    }
-
-    #divProdutos05{
-        left: 40%;
-        top: 75%;
+        top: 130%;       
     }
 }
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:800px){
+    .divProdutos{
+        position: absolute;
+        margin: 0 0 10%;
+    }
+
+    #divProdutos01{
+        left: 20%;
+        top: 20%;
+    }
+
+    #divProdutos02{
+        left: 60%;
+        top: 20%;       
+    }
+
+    #divProdutos03{
+        left: 20%;
+        top: 55%;
+        
+    }
+
+    #divProdutos04{       
+        left: 60%;
+        top: 55%;
+    }
+
+    #divProdutos05{
+        left:20%;
+        top: 95%;       
+    }
+
+    #divProdutos06{
+        left: 60%;
+        top: 95%;          
+    }
+    .nav-pag{
+        left: 40%;
+        top: 135%;
+       
+    }
+}
+/* PC */
+@media screen and (min-width:800px){
+    .divProdutos{
+        position: absolute;
+        margin: 0 0 10%;
+    }
+
+    #divProdutos01{
+        left: 5%;
+        top: 20%;
+    }
+
+    #divProdutos02{
+        left: 37%;
+        top: 20%;       
+    }
+
+    #divProdutos03{
+        left: 69%;
+        top: 20%;
+        
+    }
+
+    #divProdutos04{
+        left: 5%;
+        top: 60%;
+    }
+
+    #divProdutos05{
+        left:37%;
+        top: 60%;       
+    }
+
+    #divProdutos06{
+        left: 69%;
+        top: 60%;          
+    }
+    .nav-pag{
+        position: absolute;
+        margin-bottom: 2%;
+        top: 95%;
+        left: 37%;     
+       
+    }
+}
+
+@media screen and (min-width:1000px){
+    .divProdutos{
+        position: absolute;
+        margin: 0 0 10%;
+    }
+
+    #divProdutos01{
+        left: 10%;
+        top: 20%;
+    }
+
+    #divProdutos02{
+        left: 40%;
+        top: 20%;       
+    }
+
+    #divProdutos03{
+        left: 69%;
+        top: 20%;
+        
+    }
+
+    #divProdutos04{
+        left: 10%;
+        top: 60%;
+    }
+
+    #divProdutos05{
+        left:40%;
+        top: 60%;       
+    }
+
+    #divProdutos06{
+        left: 69%;
+        top: 60%;          
+    }
+    .nav-pag{
+        position: absolute;
+        margin-bottom: 2%;
+        top: 93%;
+        left: 40%; 
+    }
+}
+
+@media screen and (max-width:1440px){
     #divProdutos01{
         left: 13%;
     }
@@ -210,10 +269,19 @@ body img{
 
     #divProdutos04{
         left: 73%;
-        top: 25%;
+        top: 20%;
     }
 
     #divProdutos05{
+        top: 65%;
         left: 13%;       
+    }
+
+    #divProdutos06{
+        top: 65%;
+        left: 33%;
+    }
+    .nav-pag{
+        top: 105%;
     }
 }
