@@ -104,13 +104,13 @@ body {
       border-radius: unset;
       box-shadow: unset;
       bottom: 160px;
-      left: 4%;
+      left: 1%;
       width: 550px;
     }
   
-    .divMenu ul li {  
+    .divMenu ul li { 
       margin: 10px 15px;
-      
+      background: #d90429;
       border-radius: 10px;
       height: 30px;
   
@@ -119,7 +119,7 @@ body {
     .divMenu ul li a {
       position: relative;
       top:2px;
-      color: black;
+      color: white;
       font-size: x-large;   
     }   
   
