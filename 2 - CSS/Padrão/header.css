@@ -90,16 +90,8 @@ body {
     }
   }
   
-  @media screen and (min-width:768px){
-    
-    
-    .logoHeader{
-      width: 115px;
-    }
-    #logo{
-      height: 120px;
-    }
-  
+  @media screen and (min-width:768px){   
+   
     header{
       height: 90px;
     }

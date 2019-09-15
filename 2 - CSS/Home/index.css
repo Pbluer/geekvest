@@ -5,8 +5,8 @@ body img{
 
 .divProdutos{
     position: relative;
-    left: 18%;
-    margin: 0 0 25%;    
+    left: 23%;
+    margin: 0 0 60px;    
     height: 220px;
     width: 200px;    
     background: #ffffff;
@@ -37,11 +37,34 @@ body img{
     bottom: 51px;
 }
 
+.nav-pag{
+    position: relative;
+    left:23%;   
+    height: 30px;
+    width: 200px;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    color: #636363;
+    background-color: white;
+    box-shadow: 0 0 2px black;
+}
+
+.nav-pag:hover{
+    transition: 1s;
+    box-shadow: 0 0 10px #636363;
+}
+
+.nav-pag ol li {
+    padding: 5px;
+}
 /* SmartPhone*/
 
 @media screen and (min-width:375px){
     .divProdutos{
         left: 27%;
+    }
+    .nav-pag{
+        left: 25%;
     }
 }
 
@@ -49,17 +72,13 @@ body img{
     .divProdutos{
         left: 33%;
     }
-}
-
-@media screen and (min-width:600px){
-    
-    .divProdutos{
-        left: 40%;
+    .nav-pag{
+        left: 33%;
     }
 }
 
 /* Tablet */
-@media screen and (min-width:768px){
+@media screen and (min-width:560px){
 
     .divProdutos{
         position: absolute;
@@ -67,34 +86,89 @@ body img{
     }
 
     #divProdutos01{
-        left: 20%;
+        left: 10%;
         top: 25%;
     }
 
     #divProdutos02{
-        left: 60%;
+        left: 55%;
         top: 25%;       
     }
 
     #divProdutos03{
-        left: 20%;
-        top: 75%;
+        left: 10%;
+        top: 65%;
         
     }
 
     #divProdutos04{
-        top: 75%;
-        left: 60%;
+        top: 65%;
+        left: 55%;
     }
 
     #divProdutos05{
-        top: 125%
+        left:10%;
+        top: 105%
+    }
+
+    #divProdutos06{
+        left: 55%;
+        top: 105%;
+    }
+    .nav-pag{
+        position: absolute;
+        top: 145%;
+       
     }
 }
 
+/*
+@media screen and (min-width:700px){
+    .divProdutos{
+        position: absolute;
+        margin: 0 0 10%;
+    }
+
+    #divProdutos01{
+        left: 15%;
+        top: 20%;
+    }
+
+    #divProdutos02{
+        left: 55%;
+        top: 20%;       
+    }
+
+    #divProdutos03{
+        left: 15%;
+        top: 55%;
+        
+    }
+
+    #divProdutos04{       
+        left: 55%;
+        top: 55%;
+    }
+
+    #divProdutos05{
+        top: 95%;
+        left:15%;
+        
+    }
+
+    #divProdutos06{
+        top: 95%;
+        left: 55%;        
+    }
+    .nav-pag{
+        position: absolute;
+        top: 135%;
+       
+    }
+}*/
 /* PC */
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:700px){
 
     #divProdutos01{
         left: 10%;
