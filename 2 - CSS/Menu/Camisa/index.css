@@ -218,26 +218,30 @@ body img{
 }
 
 @media screen and (min-width:600px){
+    .divNomeItem{
+        margin: auto;
+    }
+    
     .divProdutos{
-        left:5%;
-        top: 25%;
+        left:27%;
+        top: 20%;
     }
     .divDescricao{
-        left: 50%;
-        top: 35%;
+        left: 25%;
+        top: 64%;
     }
 }
 
 @media screen and (min-width:700px){
     .divProdutos{
-        left: 5%;
-        top: 22%;
+        left: 10%;
+        top: 15%;
     }
 
     .divDescricao{
         position: absolute;
         left: 50%;
-        top: 35%;
+        top: 30%;
     }
 }
 
@@ -271,4 +275,32 @@ body img{
         top: 25%;
     }
     
+}
+
+@media screen and (min-width:1050px){
+    .divProdutos{
+        left: 20%;
+    }
+}
+
+@media screen and (min-width:1100px){
+    .divProdutos{
+        left: 20%;
+    }
+
+    .divDescricao{
+        top: 30%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .divDescricao{
+        top: 30%;
+    }
+}
+
+@media screen and (min-width:1300px){
+    .divDescricao{
+        top: 35%;
+    }
 }
