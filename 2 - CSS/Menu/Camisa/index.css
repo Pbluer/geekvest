@@ -58,8 +58,8 @@ body img{
 
 .divDescricao{
     position: absolute;
-    top: 85%;    
-    left: 3%;
+    top: 65%;    
+    left: 7%;
     height: 30px;
     width: 300px;
     border-radius: 10px;
@@ -118,7 +118,7 @@ body img{
     .divProdutos{
         position: absolute;
         left: 15%;
-        top: 30%;
+        top: 20%;
         margin:  10% 2%;    
         height: 220px;
         width: 250px;    
@@ -135,13 +135,13 @@ body img{
         
     }
     .divNomeItem h2 {
-        padding: 11%;
+        padding: 6%;
         color: #636363;
     }
-
+    
     .divDescricao{
         left: 10%;
-        top: 80%;
+        top: 59%;
     }
     .divInfo{
         width: 275px;
@@ -150,11 +150,11 @@ body img{
     
 }
 
-@media screen and (min-width:425px){
+@media screen and (min-width:400px){
    
     .divProdutos{
         position: absolute;
-        left: 21%;
+        left: 17%;
         bottom: 70px;       
         margin:  10% 2%;    
         height: 220px;
@@ -171,7 +171,7 @@ body img{
 
     .divNomeItem{
         position: relative;       
-        margin:  10% 2%;            
+        margin:  5% 2%;            
     }
 
     .divNomeItem h2 {
@@ -180,41 +180,95 @@ body img{
     }
 
     .divDescricao{
-        left: 17%;
+        left: 12%;
     }
-    .divInfo{        
+    .divInfo{
         width: 270px;
         left: 6%;
     } 
 
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:450px){
+    .divProdutos{
+        left: 21%;
+    }
+    .divDescricao{
+        left: 17%;
+    }
+}
+
+@media screen and (min-width:500px){
+    .divProdutos{
+        left: 23%;
+    }
+    .divDescricao{
+        left: 20%;
+    }
+}
+
+@media screen and (min-width:550px){
+    .divProdutos{
+        left: 25%;
+    }
+    .divDescricao{
+        left: 23%;
+        top: 60%;
+    }
+}
+
+@media screen and (min-width:600px){
+    .divProdutos{
+        left:5%;
+        top: 25%;
+    }
+    .divDescricao{
+        left: 50%;
+        top: 35%;
+    }
+}
+
+@media screen and (min-width:700px){
     .divProdutos{
         left: 5%;
+        top: 22%;
     }
 
     .divDescricao{
         position: absolute;
         left: 50%;
-        top: 45%;
+        top: 35%;
     }
 }
 
-@media screen and (min-width:1020px){
+@media screen and (min-width:900px){
+    .divNomeItem{
+        margin: auto;
+    }
+
+    .divProdutos{
+        top: 15%;
+    }
+
+    .divDescricao{
+        top: 30%;
+    }
+}
+
+@media screen and (min-width:1000px){
     
     .divNomeItem{
         margin: 2% 2%;
     }
     
     .divProdutos{
-        left: 20%;
+        left: 10%;
         top:10%;
     }
     
     .divDescricao{
-        left: 45%;
-        top: 33%;
+        left: 50%;
+        top: 25%;
     }
     
 }

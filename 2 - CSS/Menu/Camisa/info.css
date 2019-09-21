@@ -1,0 +1,9 @@
+.tabela{
+    color: #636363;
+    text-align: center;
+    border: 2px solid #636363;
+    margin:0 6px;
+}
+tr,th,td{
+    border: 2px solid #636363;
+}
