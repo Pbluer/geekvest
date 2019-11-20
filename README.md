@@ -1,10 +1,9 @@
 # GeekVest
 ### PT BR : Primeiro site criado como estudo
-O site ainda está sendo construido para web PC.
-Comecei com mobile, e está pronto até a resolução 768 x 769(tablet).
+As páginas web foi construida utilizando HTML e CSS
  
 ### English : The frist web site created for study
-The web site is under construction for web PC. 
+The web page was built using HTML and CSS
 I started with mobile, and it's ready until the resolution 768 x 769(tablet).
 
 ### Mobile
